@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./LoginScreen.css";
+import SignupScreen from "./SignupScreen";
 
 function LoginScreen() {
   const [signIn, setSignIn] = useState(false);
@@ -18,7 +19,7 @@ function LoginScreen() {
         <div className="loginScreen__gradient"></div>
         <div className="loginScreen__body">
           {signIn ? (
-            <h1>Sign Up Screen</h1>
+            <SignupScreen/>
           ) : (
             <>
               <h1>Unlimited Documentaries and more.</h1>

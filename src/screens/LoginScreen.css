@@ -51,6 +51,8 @@
   color: #fff;
   padding: 20px;
   top: 30%;
+  left: 0;
+  right: 0;
 }
 
 .loginScreen__button {
